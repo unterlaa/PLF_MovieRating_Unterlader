@@ -59,5 +59,10 @@
             <button type="submit" class="btn btn-primary">Save Updates</button>
         </div>
     </form>
+    <form method="post" action="{{ url('movies/' . $movie->id ) }}">
+        {{ method_field("delete") }}
+        {{ csrf_field() }}
+        <button class="btn btn-danger btn-sm">Delete</button>
+    </form>
 
 @stop
