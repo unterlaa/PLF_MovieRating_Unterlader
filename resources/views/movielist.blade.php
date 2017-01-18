@@ -14,9 +14,7 @@
         <th>
             <a href="{{ url('movies/create') }}" class="btn btn-warning btn-sm" role="button">New Movie</a>
         </th>
-        <th>
-            <a href="{{ url('/') }}" class="btn btn-info btn-sm" role="button">Übersichtsseite</a>
-        </th>
+
 
 
         </thead>

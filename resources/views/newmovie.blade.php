@@ -35,5 +35,8 @@
             <button type="submit" class="btn btn-primary">Save</button>
         </div>
     </form>
+    <th>
+        <a href="{{ url('/movies') }}" class="btn btn-info btn-sm" role="button">Übersichtsseite</a>
+    </th>
 
 @stop
