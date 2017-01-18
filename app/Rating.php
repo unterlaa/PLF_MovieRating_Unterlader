@@ -8,6 +8,6 @@ class Rating extends Model
 {
     //
     public function movies(){
-        return $this->hasMany('App\Movie');
+        return $this->belongsTo('App\Movie');
     }
 }

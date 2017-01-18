@@ -14,3 +14,13 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/test', function () {
+    return view('test');
+});
+
+Route::get('/newmovie', function () {
+    return view('newmovie');
+});
+
+Route::resource('/movies', MovieController::class);
